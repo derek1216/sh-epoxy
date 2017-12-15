@@ -1,4 +1,4 @@
-<?php define('root_dir', '/old_v/sh-epoxy/'); ?>
+<?php define('root_dir', '/test_1215/'); ?>
 
 
 <link rel="icon" href="favicon.png" type="image/png">

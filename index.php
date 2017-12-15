@@ -7,6 +7,8 @@
   <title>Epoxy環氧樹脂專業施工 - 尚輝樹脂</title>
   <?php require_once('include.php')?>
   <?php require_once('gacode.php')?>
+
+  
 </head>
 
 <body>
@@ -25,7 +27,7 @@
 <br/> 責任施工真正一元化
 </h2>
                 <br/>
-                <a href="#service" class="learn_more2">施工洽詢</a>
+                <a href="#service" class="learn_more2 contactus">施工洽詢</a>
                 <br/>
                 <br/>
                 <br/>
@@ -93,7 +95,7 @@
         <h2>服務項目</h2>
         <div class="work_section">
           <div class="row">
-            <div class="col-lg-8 col-sm-8 wow fadeInLeft delay-05s">
+            <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
               <div class="service-list">
                 <div class="service-list-col1">
                   <i class="icon-cog"></i>
@@ -140,10 +142,12 @@
                 </div>
               </div>
               <div class="work_bottom">
-                <a href="#contact" class="contact_btn">聯絡我們</a>
+                <a href="#contact" class="contact_btn contactus">聯絡我們</a>
               </div>
             </div>
-            <figure class="top_cont_latestimg col-lg-4 col-sm-4  text-right wow fadeInUp delay-02s"> </figure>
+            <figure class="top_cont_latestimg col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"> 
+            <img src="<?php echo root_dir ?>img/new/Epoxy-Flooring.jpg" />
+            </figure>
           </div>
         </div>
       </div>
@@ -359,7 +363,111 @@
   <!--/Portfolio -->
 
   <?php require_once('footer.php')?>
+<script>
+  $(function(){
+      $(".contactus").click(function() {
+        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+      });
+  })
+</script>
 
+  <script type="text/javascript">
+    $(window).load(function () {
+
+      $('a').bind('click', function (event) {
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top - 91
+        }, 1500, 'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        event.preventDefault();
+      });
+    })
+  </script>
+
+  <script type="text/javascript">
+
+
+    jQuery(document).ready(function ($) {
+      // Portfolio Isotope
+      var container = $('#portfolio-wrap');
+
+
+      container.isotope({
+        animationEngine: 'best-available',
+        animationOptions: {
+          duration: 200,
+          queue: false
+        },
+        layoutMode: 'fitRows'
+      });
+
+      $('#filters a').click(function () {
+        $('#filters a').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+        container.isotope({ filter: selector });
+        setProjects();
+        return false;
+      });
+
+
+      function splitColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = 1;
+
+
+        if (winWidth > 1024) {
+          columnNumb = 4;
+        } else if (winWidth > 900) {
+          columnNumb = 2;
+        } else if (winWidth > 479) {
+          columnNumb = 2;
+        } else if (winWidth < 479) {
+          columnNumb = 1;
+        }
+
+        return columnNumb;
+      }
+
+      function setColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = splitColumns(),
+          postWidth = Math.floor(winWidth / columnNumb);
+
+        container.find('.portfolio-item').each(function () {
+          $(this).css({
+            width: postWidth + 'px'
+          });
+        });
+      }
+
+      function setProjects() {
+        setColumns();
+        container.isotope('reLayout');
+      }
+
+      container.imagesLoaded(function () {
+        setColumns();
+      });
+
+
+      $(window).bind('resize', function () {
+        setProjects();
+      });
+
+    });
+    $(window).load(function () {
+      jQuery('#all').click();
+      return false;
+    });
+  </script>
 </body>
 
 </html>
