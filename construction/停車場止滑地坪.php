@@ -7,6 +7,7 @@
   <title>Epoxy環氧樹脂專業施工 - 尚輝樹脂</title>
   <?php require_once('../include.php')?>
   <?php require_once('../gacode.php')?>
+  <link href="<?php echo root_dir ?>css/construction.css" rel="stylesheet" type="text/css">
 </head>
 <style>
   hr {
