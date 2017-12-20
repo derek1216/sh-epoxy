@@ -1,0 +1,22 @@
+@Media (max-width: 480px) {
+
+    #carousel,.carousel-inner{
+        height:100px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+    table{
+        width:95%
+    }
+}
+
+#carousel,.carousel-inner{
+    height:400px;
+}
+
+table{
+    width:100%
+}

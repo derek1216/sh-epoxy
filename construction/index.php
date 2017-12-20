@@ -30,6 +30,17 @@
   p{
     line-height: unset;
   }
+
+  @Media (max-width: 480px) {
+  .col-md-6{
+    margin-top: 30px;
+  }
+
+  h3{
+    font-size:15px;
+  }
+}
+  
 </style>
 
 <body>
