@@ -36,7 +36,7 @@ td{
 <div class="container">
 
     <div class="row">
-        <h1 style="margin-bottom: 32px;margin-top:60px;"><span class="title">
+        <h1 style="margin-bottom: 32px;margin-top:60px;" class="text-center text-lg-left"><span class="title">
         Epoxy環氧樹脂系列--彩繪晶</span>
         </h1>
 <table cellspacing="0" cellpadding="0" bordercolor="#ccc" border="1" align="center" style="width:100%;margin-bottom:70px;">

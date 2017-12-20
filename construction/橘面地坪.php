@@ -63,8 +63,8 @@
 <body>
 
   <?php require_once('../header.php') ?>
-
-  <div class="container">
+  <?php require_once('../carousel.php') ?>
+  <div class="container" style="margin-top: 70px;">
 
     <div class="row">
 

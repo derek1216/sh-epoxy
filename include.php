@@ -1,4 +1,4 @@
-<?php define('root_dir', '/test_1215/'); ?>
+<?php define('root_dir', '/test1216/'); ?>
 
 
 <link rel="icon" href="favicon.png" type="image/png">

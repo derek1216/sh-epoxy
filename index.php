@@ -211,7 +211,7 @@
         <!-- Portfolio Item FullScreen Expander -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/18/130709152747b2267.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/18/130709152747b2267.jpg" alt="Portfolio 1"> </div>
           <div class="project-overlay">
             <div class="open-project-link">
               <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-2.html" title="Open Project"></a>
@@ -228,7 +228,7 @@
         <!-- Portfolio Item With PrettyPhoto  -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/10/12051519151624d8c.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/10/12051519151624d8c.jpg" alt="Portfolio 1"> </div>
           <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio2.jpg">
             <div class="project-overlay">
               <div class="project-info">
@@ -244,7 +244,7 @@
         <!-- Portfolio Item Video Expander  -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/13/120515201027d4478.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/13/120515201027d4478.jpg" alt="Portfolio 1"> </div>
           <div class="project-overlay">
             <div class="open-project-link">
               <a class="open-project" href="http://clapat.ro/themes/newave/project-video-expander.html" title="Open Project"></a>
@@ -261,7 +261,7 @@
         <!-- Portfolio Item Normal Expander -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/16/130709153220feda4.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/16/130709153220feda4.jpg" alt="Portfolio 1"> </div>
           <div class="project-overlay">
             <div class="open-project-link">
               <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-1.html" title="Open Project"></a>
@@ -278,7 +278,7 @@
         <!-- Portfolio Item FullScreen Expander -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  photography  branding web isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/12/1205151938282c755.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/12/1205151938282c755.jpg" alt="Portfolio 1"> </div>
           <div class="project-overlay">
             <div class="open-project-link">
               <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-1.html" title="Open Project"></a>
@@ -296,7 +296,7 @@
         <!-- Portfolio Item Normal Expander -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/5/1205151839456198b.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/5/1205151839456198b.jpg" alt="Portfolio 1"> </div>
           <div class="project-overlay">
             <div class="open-project-link">
               <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-2.html" title="Open Project"></a>
@@ -313,7 +313,7 @@
         <!-- Portfolio Item External Project  -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/2/1205111505262dcfb.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/2/1205111505262dcfb.jpg" alt="Portfolio 1"> </div>
           <a href="http://clapat.ro/themes/newave/project-external-1.html" class="external">
             <div class="project-overlay">
               <div class="project-info">
@@ -329,7 +329,7 @@
         <!-- Portfolio Item With PrettyPhoto  -->
         <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
           <div class="portfolio-image">
-            <img src="img/upload/19/13070915261529a70.jpg" alt="Portfolio 1"> </div>
+            <img src="/upload/product/19/13070915261529a70.jpg" alt="Portfolio 1"> </div>
           <a title="Stereo Headphones" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio8.jpg">
             <div class="project-overlay">
               <div class="project-info">
@@ -349,7 +349,7 @@
     <!--/Portfolio Plus Filters -->
 
     <div class="portfolio-bottom" style="text-align:center;">
-      <a href="#service" style="display:inline-block;background-color:#329b0c;" class="learn_more2">瀏覽更多</a>
+      <a href="epoxy_portfolio_photo.php" style="display:inline-block;background-color:#329b0c;" class="learn_more2">瀏覽更多</a>
     </div>
 
     <!-- Project Page Holder-->
