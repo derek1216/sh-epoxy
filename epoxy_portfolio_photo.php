@@ -70,7 +70,7 @@
 
       <?php
         function get_firstPhoto($folder_id){
-            $folder = '../upload/product/'.$folder_id;
+            $folder = 'upload/product/'.$folder_id;
             $files = scanDir::scan($folder, "jpg");
             if(sizeof($files)>0){
                 return $files[0];

@@ -42,6 +42,7 @@
 
 <?php require_once('header.php') ?>
 <?php require_once('carousel.php') ?>
+
 <div class="container">
 <h1 class="my-4 text-lg-left" style="margin-bottom: 40px;"><span class="title">Epoxy施工實績照 - <?php echo $_GET['name'];?></span></h1>   
 <div id="main_area" style="margin-bottom:150px;">
@@ -55,13 +56,13 @@
             <?php
             $folder_id = $_GET['project'];
             //Scan a single directory for all files, no sub-directories
-            $folder = '../upload/product/'.$folder_id;
+            $folder = 'upload/product/'.$folder_id;
             $files = scanDir::scan($folder, "jpg");
             $file_count = sizeof($files);
             foreach ($files as $key => $value) {
                 echo '<li class="col-sm-12">';
                 echo '<a class="thumbnail" id="carousel-selector-'.$key.'">';
-                echo '<img src="'.$value.'">';
+                echo '<img alt="Epoxy - '. $_GET['name'].'" src="'.$value.'">';
                 echo '</a>';
                 echo '</li>';
             }
@@ -80,7 +81,7 @@
                             <div class="carousel-inner">
 
                             <?php
-                                $folder = '../upload/product/'.$folder_id;
+                                $folder = 'upload/product/'.$folder_id;
                                 $files = scanDir::scan($folder, "jpg");
                                 foreach ($files as $key => $value) {
                                     if($key==0){
