@@ -35,7 +35,7 @@
           <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-              <a href="<?php echo root_dir ?>portfolio_photo.php">實績照</a>
+              <a href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
             </li>
             <li>
               <a href="<?php echo root_dir ?>portfolio.php">實績表</a>
@@ -77,7 +77,7 @@
             <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
               <li>
-                <a href="<?php echo root_dir ?>portfolio_photo.php">實績照</a>
+                <a href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
               </li>
               <li>
                 <a href="<?php echo root_dir ?>portfolio.php">實績表</a>

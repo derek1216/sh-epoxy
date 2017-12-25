@@ -482,6 +482,333 @@ function check_mobile(){
                   return false;
                 });
               </script>
+              <div class="work_bottom">
+                <a href="#contact" class="contact_btn contactus">聯絡我們</a>
+              </div>
+            </div>
+            <figure class="top_cont_latestimg col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"> 
+            <img src="<?php echo root_dir ?>img/new/Epoxy-Flooring.jpg" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+    </div>
+  </section>
+  <!--main-section-end-->
+
+  <!--new_portfolio-->
+
+  <!-- Portfolio -->
+  <section id="Portfolio" class="content">
+
+    <!-- Container -->
+    <div class="container portfolio-title">
+
+      <!-- Section Title -->
+      <div class="section-title">
+        <h2>成功案例</h2>
+      </div>
+      <!--/Section Title -->
+
+    </div>
+    <!-- Container -->
+
+    <div class="portfolio-top"></div>
+
+    <!-- Portfolio Plus Filters -->
+    <div class="portfolio">
+
+      <!-- Portfolio Filters -->
+      <div id="filters" class="sixteen columns">
+        <ul class="clearfix">
+          <li>
+            <a id="all" href="#" data-filter="*" class="active">
+              <h5>全部</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".branding">
+              <h5>Epoxy耐磨地坪</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".design">
+              <h5>Epoxy外牆防水</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".photography">
+              <h5>Epoxy隔熱工程</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--/Portfolio Filters -->
+
+      <!-- Portfolio Wrap -->
+      <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
+
+        <!-- Portfolio Item FullScreen Expander -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/18/130709152747b2267.jpg" alt="Portfolio 1"> </div>
+          <div class="project-overlay">
+            <div class="open-project-link">
+              <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-2.html" title="Open Project"></a>
+            </div>
+            <div class="project-info">
+              <div class="zoom-icon"></div>
+              <h4 class="project-name">南港世界貿易</h4>
+              <p class="project-categories">Epoxy耐磨地坪</p>
+            </div>
+          </div>
+        </div>
+        <!--/Portfolio Item FullScreen Expander -->
+
+        <!-- Portfolio Item With PrettyPhoto  -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/10/12051519151624d8c.jpg" alt="Portfolio 1"> </div>
+          <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio2.jpg">
+            <div class="project-overlay">
+              <div class="project-info">
+                <div class="zoom-icon"></div>
+                <h4 class="project-name">鐵皮屋</h4>
+                <p class="project-categories">Epoxy隔熱工程</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--/Portfolio Item With PrettyPhoto  -->
+
+        <!-- Portfolio Item Video Expander  -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/13/120515201027d4478.jpg" alt="Portfolio 1"> </div>
+          <div class="project-overlay">
+            <div class="open-project-link">
+              <a class="open-project" href="http://clapat.ro/themes/newave/project-video-expander.html" title="Open Project"></a>
+            </div>
+            <div class="project-info">
+              <div class="zoom-icon"></div>
+              <h4 class="project-name">室內設計</h4>
+              <p class="project-categories">Epoxy耐磨地坪</p>
+            </div>
+          </div>
+        </div>
+        <!--/Portfolio Item Video Expander  -->
+
+        <!-- Portfolio Item Normal Expander -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/16/130709153220feda4.jpg" alt="Portfolio 1"> </div>
+          <div class="project-overlay">
+            <div class="open-project-link">
+              <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-1.html" title="Open Project"></a>
+            </div>
+            <div class="project-info">
+              <div class="zoom-icon"></div>
+              <h4 class="project-name">橋鴻家具</h4>
+              <p class="project-categories">Epoxy耐磨地坪</p>
+            </div>
+          </div>
+        </div>
+        <!--/Portfolio Item Normal Expander -->
+
+        <!-- Portfolio Item FullScreen Expander -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  photography  branding web isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/12/1205151938282c755.jpg" alt="Portfolio 1"> </div>
+          <div class="project-overlay">
+            <div class="open-project-link">
+              <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-1.html" title="Open Project"></a>
+            </div>
+            <div class="project-info">
+              <div class="zoom-icon"></div>
+              <h4 class="project-name">戀戀大直</h4>
+              <p class="project-categories">Epoxy耐磨地坪</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item FullScreen Expander -->
+
+
+        <!-- Portfolio Item Normal Expander -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/5/1205151839456198b.jpg" alt="Portfolio 1"> </div>
+          <div class="project-overlay">
+            <div class="open-project-link">
+              <a class="open-project" href="http://clapat.ro/themes/newave/project-normal-expander-2.html" title="Open Project"></a>
+            </div>
+            <div class="project-info">
+              <div class="zoom-icon"></div>
+              <h4 class="project-name">家樂福</h4>
+              <p class="project-categories">Epoxy外牆防水</p>
+            </div>
+          </div>
+        </div>
+        <!--/Portfolio Item Normal Expander -->
+
+        <!-- Portfolio Item External Project  -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/2/1205111505262dcfb.jpg" alt="Portfolio 1"> </div>
+          <a href="http://clapat.ro/themes/newave/project-external-1.html" class="external">
+            <div class="project-overlay">
+              <div class="project-info">
+                <div class="zoom-icon"></div>
+                <h4 class="project-name">蒂芬尼</h4>
+                <p class="project-categories">Epoxy耐磨地坪</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--/Portfolio Item External Project  -->
+
+        <!-- Portfolio Item With PrettyPhoto  -->
+        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px;height:337px; opacity: 1;" class="portfolio-item one-four   photography isotope-item">
+          <div class="portfolio-image">
+            <img src="/upload/product/19/13070915261529a70.jpg" alt="Portfolio 1"> </div>
+          <a title="Stereo Headphones" rel="prettyPhoto[galname]" href="http://clapat.ro/themes/newave/images/portfolio/portfolio8.jpg">
+            <div class="project-overlay">
+              <div class="project-info">
+                <div class="zoom-icon"></div>
+                <h4 class="project-name">新北市消防局</h4>
+                <p class="project-categories">Epoxy耐磨地坪</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--/Portfolio Item With PrettyPhoto  -->
+
+      </div>
+      <!--/Portfolio Wrap -->
+
+    </div>
+    <!--/Portfolio Plus Filters -->
+
+    <div class="portfolio-bottom" style="text-align:center;">
+      <a href="epoxy_portfolio_photo.php" style="display:inline-block;background-color:#329b0c;" class="learn_more2">瀏覽更多</a>
+    </div>
+
+    <!-- Project Page Holder-->
+    <div id="project-page-holder">
+      <div class="clear"></div>
+      <div id="project-page-data"></div>
+    </div>
+    <!--/Project Page Holder-->
+
+  </section>
+  <!--/Portfolio -->
+
+  <?php require_once('footer.php')?>
+<script>
+  $(function(){
+      $(".contactus").click(function() {
+        $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+      });
+  })
+</script>
+
+  <script type="text/javascript">
+    $(window).load(function () {
+
+      $('a').bind('click', function (event) {
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top - 91
+        }, 1500, 'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        event.preventDefault();
+      });
+    })
+  </script>
+
+  <script type="text/javascript">
+
+
+    jQuery(document).ready(function ($) {
+      // Portfolio Isotope
+      var container = $('#portfolio-wrap');
+
+
+      container.isotope({
+        animationEngine: 'best-available',
+        animationOptions: {
+          duration: 200,
+          queue: false
+        },
+        layoutMode: 'fitRows'
+      });
+
+      $('#filters a').click(function () {
+        $('#filters a').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+        container.isotope({ filter: selector });
+        setProjects();
+        return false;
+      });
+
+
+      function splitColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = 1;
+
+
+        if (winWidth > 1024) {
+          columnNumb = 4;
+        } else if (winWidth > 900) {
+          columnNumb = 2;
+        } else if (winWidth > 479) {
+          columnNumb = 2;
+        } else if (winWidth < 479) {
+          columnNumb = 1;
+        }
+
+        return columnNumb;
+      }
+
+      function setColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = splitColumns(),
+          postWidth = Math.floor(winWidth / columnNumb);
+
+        container.find('.portfolio-item').each(function () {
+          $(this).css({
+            width: postWidth + 'px'
+          });
+        });
+      }
+
+      function setProjects() {
+        setColumns();
+        container.isotope('reLayout');
+      }
+
+      container.imagesLoaded(function () {
+        setColumns();
+      });
+
+
+      $(window).bind('resize', function () {
+        setProjects();
+      });
+
+    });
+    $(window).load(function () {
+      jQuery('#all').click();
+      return false;
+    });
+  </script>
 </body>
 
 </html>
