@@ -1,4 +1,10 @@
-<?php define('root_dir', '/test_1215/'); ?>
+<?php define('root_dir', '/SPEC/sh-epoxy/'); ?>
+<meta name="keywords" content="EPOXY, 環氧樹脂, 廠房地坪, 停車場地坪, 防水工程">
+<meta name="description" content="EPOXY施工、環氧樹脂施工、廠房地坪、停車場地坪、防水工程 - EPOXY︱環氧樹脂︱真正施工一元化">
+<meta name="author" content="尚輝樹脂" />
+<meta name="copyright" content="尚輝樹脂" />
+
+
 
 
 <link rel="icon" href="favicon.png" type="image/png">
@@ -8,7 +14,7 @@
 <link href="<?php echo root_dir ?>css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="<?php echo root_dir ?>css/responsive.css" rel="stylesheet" type="text/css">
 <link href="<?php echo root_dir ?>css/animate.css" rel="stylesheet" type="text/css">
-
+<link href="<?php echo root_dir ?>css/mobile.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
 

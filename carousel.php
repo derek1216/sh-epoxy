@@ -50,12 +50,12 @@ body,
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <div class="active item"><img src="/theme/design/banner_01.gif" /></div>
-        <div class="item"><img src="/theme/design/banner_02.gif" /></div>
-        <div class="item"><img src="/theme/design/banner_03.gif" /></div>
-        <div class="item"><img src="/theme/design/banner_04.gif" /></div>
-        <div class="item"><img src="/theme/design/banner_05.gif" /></div>
-        <div class="item"><img src="/theme/design/banner_06.gif" /></div>
+        <div class="active item"><img src="<?php echo root_dir ?>theme/design/banner_01.gif" /></div>
+        <div class="item"><img src="<?php echo root_dir ?>theme/design/banner_02.gif" /></div>
+        <div class="item"><img src="<?php echo root_dir ?>theme/design/banner_03.gif" /></div>
+        <div class="item"><img src="<?php echo root_dir ?>theme/design/banner_04.gif" /></div>
+        <div class="item"><img src="<?php echo root_dir ?>theme/design/banner_05.gif" /></div>
+        <div class="item"><img src="<?php echo root_dir ?>theme/design/banner_06.gif" /></div>
     </div>
     <!-- Carousel nav -->
 </div>
