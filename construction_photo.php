@@ -47,88 +47,88 @@ h1{
         <div class="top_content">
           <div class="row">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/11.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/11.jpg" alt="epoxy素地研磨處理" />
                 <span class="subtitle">1. 素地研磨處理</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/12.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/12.jpg" alt="epoxy素地研磨處理" />
                 <span class="subtitle">1. 素地研磨處理</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/21.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/21.jpg" alt="epoxy素地清掃吸塵" />
                 <span class="subtitle">2. 素地清掃吸塵</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/22.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/22.jpg" alt="epoxy素地清掃吸塵" />
                 <span class="subtitle">2. 素地清掃吸塵</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/31.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/31.jpg" alt="epoxy底塗完成面" />
                 <span class="subtitle">3. 底塗完成面</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/32.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/32.jpg" alt="epoxy底塗完成面" />
                 <span class="subtitle">3. 底塗完成面</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/41.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/41.jpg" alt="epoxy坑洞補平" />
                 <span class="subtitle">4. 坑洞補平</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/42.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/42.jpg" alt="epoxy坑洞補平" />
                 <span class="subtitle">4. 坑洞補平</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/51.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/51.jpg" alt="epoxy流展中塗完成" />
                 <span class="subtitle">5. 流展中塗完成</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/51.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/51.jpg" alt="epoxy流展中塗完成" />
                 <span class="subtitle">5. 流展中塗完成</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/61.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/61.jpg" alt="epoxy中途研磨粗糙" />
                 <span class="subtitle">6. 中途研磨粗糙</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/62.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/62.jpg" alt="epoxy中途研磨粗糙" />
                 <span class="subtitle">6. 中途研磨粗糙</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/71.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/71.jpg" alt="epoxy施作流展面塗" />
                 <span class="subtitle">7. 施作流展面塗</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/72.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/72.jpg" alt="epoxy施作流展面塗" />
                 <span class="subtitle">7. 施作流展面塗</span>
             </div>
         </div>
 
         <div class="row section">
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/81.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/81.jpg" alt="epoxy流展完成面" />
                 <span class="subtitle">8. 流展完成面</span>
             </div>
             <div class="col-lg-6 col-xs-6">
-                <img src="<?php echo root_dir ?>img/construction/82.jpg" />
+                <img src="<?php echo root_dir ?>img/construction/82.jpg" alt="epoxy流展完成面" />
                 <span class="subtitle">8. 流展完成面</span>
             </div>
         </div>
