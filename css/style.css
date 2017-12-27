@@ -106,7 +106,7 @@ h3{
 	font-family: 'Roboto', 'Segoe UI', 'Segoe UI Light', 'Myriad Set Pro', Microsoft JhengHei, 微軟正黑體, Microsoft YaHei, 微軟雅黑體, Tahoma, PMingLiU, 新細明體, simhei, Trebuchet MS, Lucida Sans Unicode, Verdana, 'Fontawesome', sans-serif !important;
 	font-weight: 600;
 	color:#222222;
-	font-size:16px;
+	font-size:20px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 }
@@ -172,7 +172,7 @@ p{
 	}
 	
 .nav ul li:last-child{
-	margin:0 0 0 0px;
+	/*margin:0 0 0 0px;*/
 	}
 	
 .nav ul li a{
@@ -1074,7 +1074,9 @@ img {
 /* Footer
 ---------------------------------*/
 
-.footer_section{ background:url(../img/pattern_bg.jpg) repeat left top;
+.footer_section{ 
+	/*background:url(../img/pattern_bg.jpg) repeat left top;*/
+	background-color:#282828;
 }
 
 .footer_bottom{
@@ -1193,7 +1195,7 @@ img {
     color: #222222;
     display: inline-block;
     font-family: 'LatoRegular',sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom: 5px;
     padding: 10px 22px;

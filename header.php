@@ -1,5 +1,5 @@
 <!--Header_section-->
-<header id="header_outer">
+<header id="header_outer" style="width:100%;">
   <div class="container">
     <div class="header_section">
       <div class="logo">
@@ -12,80 +12,97 @@
       
         <ul class="toggle">
           <li>
-            <a href="<?php echo root_dir ?>index.php">首頁</a>
+            <a title="首頁" href="<?php echo root_dir ?>index.php">首頁</a>
           </li>
           <li>
-            <a href="<?php echo root_dir ?>about.php">關於我們</a>
+            <a title="關於我們" href="<?php echo root_dir ?>about.php">關於我們</a>
           </li>
           <li class="dropdown">
-            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">工程簡介</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <a title="工程簡介" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">工程簡介</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="width:100%;">
               <li>
-                <a href="<?php echo root_dir ?>construction/index.php">工法簡介</a>
+                <a title="工法簡介" href="<?php echo root_dir ?>construction/index.php">工法簡介</a>
               </li>
               <li>
-                <a href="<?php echo root_dir ?>construction_photo.php">施工解析圖</a>
+                <a title="施工解析圖" href="<?php echo root_dir ?>construction_photo.php">施工解析圖</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="<?php echo root_dir ?>product.php">產品介紹</a>
+            <a title="產品介紹" href="<?php echo root_dir ?>product.php">產品介紹</a>
           </li>
           <li class="dropdown">
-          <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <a title="成功案例" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="width:100%;">
             <li>
-              <a href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
+              <a title="實績照" href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
             </li>
             <li>
-              <a href="<?php echo root_dir ?>portfolio.php">實績表</a>
+              <a title="實績表" href="<?php echo root_dir ?>portfolio.php">實績表</a>
             </li>
           </ul>
         </li>
           <li>
-            <a href="#client_outer">聯絡我們</a>
+            <a title="聯絡我們" class="contact" href="#contact">聯絡我們</a>
           </li>
         </ul>
+<script>
+$(function(){
+  var navOpen=false;
+  $(".dropdown a").click(function(){
+    if(navOpen){
+      $("#nav a").css("color","#222222");
+      navOpen=false;
+    }else{
+      $("#nav a").css("color","#eee");
+      $(this).parents(".dropdown").find("a").css("color","#222222");
+      navOpen=true;
+    }
+  });
 
-
+  $(".contact").click(function(){
+    $("#nav ul").hide();
+  })
+});
+</script>
 
 
 
 
         <ul class="">
           <li>
-            <a href="<?php echo root_dir ?>">首頁</a>
+            <a title="首頁" href="<?php echo root_dir ?>">首頁</a>
           </li>
           <li>
-          <a href="<?php echo root_dir ?>about.php">關於我們</a>
+          <a title="關於我們" href="<?php echo root_dir ?>about.php">關於我們</a>
           </li>
           <li class="dropdown">
-            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">工程簡介</a>
+            <a title="工程簡介" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">工程簡介</a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-            <a href="<?php echo root_dir ?>construction/index.php">工法簡介</a>
+            <a title="工法簡介" href="<?php echo root_dir ?>construction/index.php">工法簡介</a>
           </li>
           <li>
-            <a href="<?php echo root_dir ?>construction_photo.php">施工解析圖</a>
+            <a title="施工解析圖" href="<?php echo root_dir ?>construction_photo.php">施工解析圖</a>
           </li>
             </ul>
           </li>
           <li>
-            <a href="<?php echo root_dir ?>product.php">產品介紹</a>
+            <a title="產品介紹" href="<?php echo root_dir ?>product.php">產品介紹</a>
           </li>
           <li class="dropdown">
-            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
+            <a title="成功案例" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">成功案例</a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
               <li>
-                <a href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
+                <a title="實績照" href="<?php echo root_dir ?>epoxy_portfolio_photo.php">實績照</a>
               </li>
               <li>
-                <a href="<?php echo root_dir ?>portfolio.php">實績表</a>
+                <a title="實績表" href="<?php echo root_dir ?>portfolio.php">實績表</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="#client_outer">聯絡我們</a>
+            <a title="聯絡我們" href="#contact">聯絡我們</a>
           </li>
         </ul>
       </nav>

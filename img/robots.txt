@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /conf/
+Disallow: /font/
+Disallow: /locale/
+Disallow: /admin/
+Disallow: /old_v/
+Disallow: /products/data-export/
+Disallow: /stms/
+Disallow: /*.doc
+Disallow: /*.xls
+Allow: /include/Minify/min/*.js
+Allow: /*.js*
+Allow: /*.css*
+
+Sitemap: http://www.aten.com/sitemap.xml

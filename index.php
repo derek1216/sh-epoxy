@@ -33,11 +33,11 @@ function check_mobile(){
               <div class="container">
                 <div class="top_content">
                   <div class="row">
-                    <div class="col-lg-5 col-sm-7">
+                    <div class="col-lg-7 col-sm-7">
                       <div class="top_left_cont flipInY wow animated">
-                        <h2>專業進口、研發、設計
+                        <h1 style="color: white;">EPOXY - 專業進口、研發、設計
     <br/> 責任施工真正一元化
-    </h2>
+    </h1>
                         <br/>
                         <a href="#contact" class="learn_more2 contactus">施工洽詢</a>
                         <br/>
@@ -47,7 +47,7 @@ function check_mobile(){
                         <br/>
                       </div>
                     </div>
-                    <div class="col-lg-7 col-sm-5"> </div>
+                    <div class="col-lg-5 col-sm-5"> </div>
                   </div>
                 </div>
               </div>
@@ -56,8 +56,12 @@ function check_mobile(){
           <!--Top_content-->
           <?php }?>
             <!--Service-->
-            <section id="service">
+            <section id="service" style="background: radial-gradient(ellipse at center, #ffffff 0%,#c5d0dd 84%);" >
               <div class="container">
+              <h2>EPOXY環氧樹脂、奈米防水塗料專家!</h2>
+                <div class="row" style="text-align: center;margin-bottom: 123px;">
+                公司秉持敬業導向的理念，數十年來擁有完整的技術體系，不斷的研究發展，匠心獨運，開發專業性的豐富系列產品，專業的施工群以最優良的特性工法施作，秉持良心道德觀念的信條，肯定能造就一個滿足您要求之成功地坪。 
+                </div>
                 <h2>我們的承諾</h2>
                 <div class="service_area">
                   <div class="row">
@@ -100,11 +104,11 @@ function check_mobile(){
             </section>
             <!--Service-->
 
-            <section id="work_outer">
+            <section id="work_outer" style="background: #3b787e radial-gradient(ellipse farthest-corner at center bottom , #a2dedf 0%, #39646a 84%) repeat scroll 0px 0px;">
               <!--main-section-start-->
               <div class="top_cont_latest">
                 <div class="container">
-                  <h2>服務項目</h2>
+                  <h2 style="color:#fff;">EPOXY工程 - 服務項目</h2>
                   <div class="work_section">
                     <div class="row">
                       <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
@@ -113,7 +117,7 @@ function check_mobile(){
                             <i class="icon-cog"></i>
                           </div>
                           <div class="service-list-col2">
-                            <h3>Epoxy斜坡道，車道止滑地坪</h3>
+                            <h3 style="color:#fff;">Epoxy斜坡道，車道止滑地坪</h3>
                             <p>&nbsp;</p>
                           </div>
                         </div>
@@ -122,7 +126,7 @@ function check_mobile(){
                             <i class="icon-cog"></i>
                           </div>
                           <div class="service-list-col2">
-                            <h3>Epoxy步道，停車場止滑地坪</h3>
+                            <h3 style="color:#fff;">Epoxy步道，停車場止滑地坪</h3>
                             <p>&nbsp;</p>
                           </div>
                         </div>
@@ -131,7 +135,7 @@ function check_mobile(){
                             <i class="icon-cog"></i>
                           </div>
                           <div class="service-list-col2">
-                            <h3>Epoxy廠房，耐重壓耐磨地坪</h3>
+                            <h3 style="color:#fff;">Epoxy廠房，耐重壓耐磨地坪</h3>
                             <p>&nbsp;</p>
                           </div>
                         </div>
@@ -140,7 +144,7 @@ function check_mobile(){
                             <i class="icon-cog"></i>
                           </div>
                           <div class="service-list-col2">
-                            <h3>Epoxy廠房無塵室，流展地坪</h3>
+                            <h3 style="color:#fff;">Epoxy廠房無塵室，流展地坪</h3>
                             <p>&nbsp;</p>
                           </div>
                         </div>
@@ -149,7 +153,7 @@ function check_mobile(){
                             <i class="icon-cog"></i>
                           </div>
                           <div class="service-list-col2">
-                            <h3>Epoxy導電地坪</h3>
+                            <h3 style="color:#fff;">Epoxy導電地坪</h3>
                             <p>&nbsp;</p>
                           </div>
                         </div>
